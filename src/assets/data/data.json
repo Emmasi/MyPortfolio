@@ -1,0 +1,124 @@
+{
+  "skills": [
+    {
+      "heading": "Languages & Frameworks",
+      "text": [
+        "JavaScript and TypeScript",
+        "Node.js",
+        "React",
+        "Next.js",
+        "Vue.js",
+        "C#",
+        "HTML",
+        "CSS and SCSS",
+        "Jest",
+        "Tailwind and Bootstrap",
+        "Zeplin and Figma"
+      ]
+    },
+    {
+      "heading": "Databases",
+      "text": [
+        "MongoDB",
+        "Episerver",
+        "Strapi CMS",
+        "SQL Server"
+      ]
+    },
+    {
+      "heading": "Tools",
+      "text": [
+        "PowerShell",
+        "GitHub",
+        "Azure DevOps",
+        "AWS",
+        "VS Code",
+        "Slack",
+        "Teams",
+        "Google Analytics"
+      ]
+    },
+    {
+      "heading": "Methods",
+      "list": [
+        "Agile Development",
+        "Scrum Principles",
+        "Kanban",
+        "Developed components with accessibility requirements (WCAG)",
+        "Pair Programming",
+        "BEM Naming Convention (Block Element Modifier)",
+        "Hybrid Work"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "heading": "CLVR Benefit - Frontend Developer",
+      "text": [
+        "2025",
+        "CLVR Benefit is developing a product to manage employee benefits. In this project, we work with React, Next.js, TypeScript, and Tailwind to create a modern and user-friendly solution."
+      ]
+    },
+    {
+      "heading": "LCube - Fullstack Developer",
+      "text": [
+        "2024",
+        "Developing a website for LCube built with React, TypeScript, Tailwind, Next.js, and AWS.",
+        "The website includes a blog feature that can easily be updated using Markdown files (.md, .mdx).",
+        "CI/CD pipelines are set up using GitHub, GitHub Actions, AWS S3, and AWS Route 53."
+      ]
+    },
+    {
+      "heading": "Authority AB - Frontend Developer",
+      "text": [
+        "2022-2023",
+        "Authority helps businesses by developing and maintaining digital operations. They provide customers with digital solutions for e-commerce platforms and digital communication.",
+        "I worked on several client projects using technologies like Pattern-lab, React, JavaScript, and SCSS.",
+        "A significant focus was on accessibility according to WCAG and agile development with Scrum."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "heading": ".Net Programming 400 YH Nackademin",
+      "text": [
+        "2024-08 — Present",
+        "Programming with C#, Database Technology, Frontend 1 and 2, Object-Oriented Analysis, Programming with ASP.NET, Data Communication and Security, DevOps."
+      ]
+    },
+    {
+      "heading": "UX and User-Centered Design 30 YH IT-Högskolan",
+      "text": [
+        "2024-04 — 2024-06",
+        "Digital analytics tools, Google Analytics. Digital and analog user testing, UX tools like personas, user stories, and customer journeys."
+      ]
+    },
+    {
+      "heading": "Frontend Developer 400 YH Nackademin",
+      "text": [
+        "2021 — 2023",
+        "HTML, CSS, JavaScript, React, Node.js, MongoDB, Graphic Tools, Jest, UX, and UI Design."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "heading": "Patrik Lindström - LCube",
+      "text": [
+        "I have worked on projects with Emma for a while, and I am delighted to recommend her as a Frontend developer. Emma is a responsive and social frontend developer who enjoys coming up with creative solutions to challenging problems. Her strong interest in technology means that she is constantly learning new techniques and methods. I am confident that Emma will continue to make significant progress and deliver results in Frontend development."
+      ]
+    },
+    {
+      "heading": "Oscar Fitinghoff - Authority",
+      "text": [
+        "Emma är en pålitlig och positiv kollega, det är roligt att arbeta med Emma som är driven och tycker om att lära sig och utforska nya områden. Det gör henne enligt min uppfattning till en kompetent frontend-utvecklare. Emma har potentialen att fortsätta utvecklas och skulle vara en tillgång för vilket företag som helst."
+      ]
+    },
+    {
+      "heading": "Per Hassel - Authority",
+      "text": [
+        "I have worked on projects with Emma for a while, and I am delighted to recommend her as a Frontend developer. Emma is a responsive and social frontend developer who enjoys coming up with creative solutions to challenging problems. Her strong interest in technology means that she is constantly learning new techniques and methods. I am confident that Emma will continue to make significant progress and deliver results in Frontend development."
+      ]
+    }
+  ]
+}
