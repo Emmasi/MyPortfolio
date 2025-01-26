@@ -1,34 +1,34 @@
-name: Deploy till GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # Kör när kod pushas till main-branchen
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Klona koden från repot
-      - name: Klona repository
+      # Klona repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      # Sätt upp Node.js
-      - name: Installera Node.js
+      # Installera Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: 20  
 
-      # Installera beroenden och bygg appen
-      - name: Installera och bygg
+      # Installera beroenden och bygg projektet
+      - name: Install dependencies and build
         run: |
           npm install
           npm run build
 
       # Deploya till GitHub Pages
-      - name: Deploy till GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./dist  
