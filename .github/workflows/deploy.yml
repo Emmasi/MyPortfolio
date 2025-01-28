@@ -3,24 +3,21 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Kör när kod pushas till main-branchen
+      - main 
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Klona repository
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v2
 
-      # Installera Node.js
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v1
         with:
           node-version: 20  
 
-      # Installera beroenden och bygg projektet
       - name: Install dependencies and build
         run: |
           npm install
@@ -28,7 +25,9 @@ jobs:
 
       # Deploya till GitHub Pages. Change to this one? https://github.com/actions/deploy-pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: Emma/github-page-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist  
+        folder: dist
+        branch: gh-pages
+      # github_token: ${{ secrets.GITHUB_TOKEN }}
+      # publish_dir: ./dist  
