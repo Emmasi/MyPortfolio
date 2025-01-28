@@ -22,7 +22,6 @@ export default function Footer() {
         </div>
         <div className="mt-4 md:mt-0 text-center md:text-right">
           <p className="text-gray-400">© 2025 Emma Olsson</p>
-          <p className="text-gray-500">emmaolssondev@outlook.com</p>
         </div>
       </div>
     </footer>
