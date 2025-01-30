@@ -6,18 +6,16 @@ import About from './pages/About'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/MyPortfolio">
       <Header />
       <main>
         <Routes>
-          <Route path="/MyPortfolio" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
         </Routes>
       </main>
       <Footer />
     </Router>
-
-
   )
 }
 

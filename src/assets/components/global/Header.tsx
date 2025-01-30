@@ -9,7 +9,7 @@ const Header: React.FC = () => {
           <nav>
             <ul className="flex space-x-6">
               <li>
-                <Link to="/MyPortfolio"
+                <Link to="/"
                   className="hover:text-gray-400 transition duration-200"
                 >
                   Home
