@@ -4,15 +4,15 @@ import tailwindcss from 'tailwindcss'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/MyPortfolio/",  // 👈 Viktigt!
+  base: "/MyPortfolio/",
   css: {
     postcss: {
       plugins: [tailwindcss()],
     },
   },
   build: {
-    outDir: "dist", // 👈 Se till att bygget går till "dist"
-    assetsDir: "assets", // 👈 Ser till att assets ligger rätt
+    outDir: "dist",
+    assetsDir: "assets",
   },
-  publicDir: "public", // 👈 Säkerställ att public-mappen används
+  publicDir: "public",
 })
