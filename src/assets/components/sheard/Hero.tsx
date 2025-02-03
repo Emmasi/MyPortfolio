@@ -12,7 +12,7 @@ export default function Hero() {
           </p>
           <div className="mt-8 flex justify-center space-x-4">
             <a
-              href="/Emma_Olsson_-_Frontend_Developer1.pdf"
+              href="/MyPortfolio/Emma_Olsson_-_Frontend_Developer1.pdf"
               download="Emma_Olsson_CV.pdf"
               className="bg-customBlue text-white py-3 px-8 rounded-lg text-lg font-medium shadow hover:bg-blue-600 transition duration-300"
             >

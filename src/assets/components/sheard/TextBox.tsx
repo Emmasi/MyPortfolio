@@ -29,7 +29,7 @@ export default function TextBox({ ProfileImge, isBtn }: HeroProps) {
           {isBtn && (
             < div className="mt-6">
               <a
-                href="/Emma_Olsson_-_Frontend_Developer1.pdf"
+                href="/MyPortfolio/Emma_Olsson_-_Frontend_Developer1.pdf"
                 download="Emma_Olsson_CV.pdf"
                 className="bg-customBlue text-white py-3 px-6 rounded-lg font-medium shadow hover:bg-blue-600 transition duration-300"
               >
