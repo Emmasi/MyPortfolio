@@ -6,7 +6,7 @@ import About from './pages/About'
 
 function App() {
   return (
-    <Router basename="/MyPortfolio">
+    <Router>
       <Header />
       <main>
         <Routes>
